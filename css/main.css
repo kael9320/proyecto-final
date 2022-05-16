@@ -276,7 +276,6 @@ section {
   align-items: center;
   justify-content: center; }
   .service .service-cnt {
-    width: 45%;
     padding: 30px 30px;
     overflow: hidden; }
     .service .service-cnt h2 {
@@ -285,7 +284,8 @@ section {
       font-size: 16px;
       text-align: justify; }
     .service .service-cnt .btn {
-      display: inline-block; }
+      display: inline-block;
+      border: 0; }
       .service .service-cnt .btn:hover {
         background: #0138c9;
         color: #ffffff; }

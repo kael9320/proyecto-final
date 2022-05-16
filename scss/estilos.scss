@@ -343,7 +343,6 @@ section {
     align-items: center;
     justify-content: center;
     .service-cnt {
-        width: 45%;
         padding: 30px 30px;
         overflow: hidden;
         h2 {
@@ -355,6 +354,7 @@ section {
         }
         .btn {
             display: inline-block;
+            border: 0;
             &:hover {
                 background: #0138c9;
                 color: $color-white;
